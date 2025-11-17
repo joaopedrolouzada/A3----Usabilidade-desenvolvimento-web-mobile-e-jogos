@@ -1,48 +1,52 @@
-1. ## **Semeia- Do Campo Para o Prato**
+1. Semeia – Do Campo Para o Prato
 
-O nosso site é focado em arrecadação de alimentos para pessoas em estado de fome.
-
-O comercio local pode doar alimentos para as instituições de distribuição desses alimentos,
-
-como também pessoas as pessoas podem doar em dinheiro para que essas instituições possam fazer as compras de alimentos.
+Nosso site conecta doadores de alimentos — empresas, ONGs e agricultores — às pessoas e instituições que mais precisam,
+criando uma ponte segura e eficiente para que a ajuda chegue onde realmente faz diferença.
 
 
 
-##### **2. Como instalar e rodar o projeto**
+2. Como instalar e rodar o projeto
 
-* Vá no repositório
+1-Acesse o repositório.
+2-Clone o repositório para a sua máquina.
+3-Abra o VS Code e carregue a pasta “A3 – Desenvolvimento Web, Mobile e Jogos”.
+4-Selecione o arquivo index.html.
+5-O projeto já estará pronto para ser executado localmente.
+6-Recomendação: Instale a extensão ''Live Server'' para abrir o site no navegador.
+7-Clique em Go Live (após instalar a extensão).
 
-  git clone repositório do github\*\*
 
-* Entre na pasta do projeto
-* Abra o arquivo
 
-  index.html
+3. Tecnologias utilizadas
 
-Nessa versão foi implementado bypass via JavaScript. A conexão real com banco de dados (MySQL) será implementada na próxima etapa do nosso projeto.
+A conexão real com o banco de dados (MySQL) será implementada na próxima etapa do projeto.
 
-##### **3. Tecnologias utilizadas**
-
+* VS Code
 * HTML
 * CSS
 * JavaScript
-* Figma
-* Vs Code
+* Excalidraw e Figma (protótipo/wireframe)
+* YouTube e Filmora (edição de vídeo)
 
 
 
-##### **4. Equipe e contatos**
+4. Equipe e contatos
 
-* Ana beatriz dos santos portela (12624117747)
-* Arianne rodrigues (1262422635)
-* João Felix (1262418519)
-* João Pedro Fernandes Louzada (12624130748)
-* Luis Andrés Angrisano Crosa (12624113451)
-* Luis Felipe Reis (1262517509)
+Ana Beatriz dos Santos Portela — 12624117747
+
+Arianne Rodrigues — 1262422635
+
+João Felix — 1262418519
+
+João Pedro Fernandes Louzada — 12624130748
+
+Luis Andrés Angrisano Crosa — 12624113451
+
+Luis Felipe Reis — 1262517509
 
 
 
-##### **5. Links**
+5. Links
 LINK EXCALIDRAW:
 https://excalidraw.com/#json=v9HCHsXPmRmttQRRaNeLn,0SdoI34ILAWOG_U2rCL2sQ
 
