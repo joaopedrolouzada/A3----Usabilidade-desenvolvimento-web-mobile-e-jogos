@@ -19,7 +19,7 @@ como também pessoas as pessoas podem doar em dinheiro para que essas instituiç
 
   index.html
 
-
+Nessa versão foi implementado bypass via JavaScript. A conexão real com banco de dados (MySQL) será implementada na próxima etapa do nosso projeto.
 
 ##### **3. Tecnologias utilizadas**
 
