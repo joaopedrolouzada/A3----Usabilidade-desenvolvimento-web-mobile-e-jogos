@@ -17,17 +17,19 @@
             <h2 class="text-success fw-bold">Bem-vindo de volta</h2>
             <p class="text-muted">Faça login</p>
           </div>
-          <form>
+
+          <form onsubmit="mostrarSucesso(event, 'login')">
             <div class="mb-3">
               <label class="form-label">E-mail</label>
-              <input type="email" class="form-control form-control-lg rounded-3" placeholder="seu@email.com" required>
+              <input type="email" name="email" class="form-control form-control-lg rounded-3" placeholder="seu@email.com" required>
             </div>
             <div class="mb-4">
               <label class="form-label">Senha</label>
-              <input type="password" class="form-control form-control-lg rounded-3" placeholder="••••••••" required>
+              <input type="password" name="senha" class="form-control form-control-lg rounded-3" placeholder="••••••••" required>
             </div>
             <button type="submit" class="btn btn-success btn-lg w-100 rounded-3">Entrar</button>
           </form>
+
           <p class="text-center mt-4 text-muted">
             Não tem conta? <a href="registrar.html" class="text-success fw-bold">Registre-se aqui</a>
           </p>
@@ -35,5 +37,25 @@
       </div>
     </div>
   </div>
+
+  <script>
+    function mostrarSucesso(event, tipo) {
+      event.preventDefault();
+      const overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;z-index:9999;';
+      overlay.innerHTML = `
+        <div class="text-center p-5 bg-white rounded-4 shadow-lg" style="max-width:90%;">
+          <div class="spinner-border text-success mb-4" style="width:4rem;height:4rem;"></div>
+          <h3 class="text-success fw-bold mb-3">
+            ${tipo === 'cadastro' ? 'Cadastro realizado!' : 'Login efetuado!'}
+          </h3>
+          <div class="alert alert-info fs-5">Conexão com banco de dados na próxima versão!</div>
+          <button onclick="window.location.href='index.html'" class="btn btn-success mt-3">Voltar ao início</button>
+        </div>
+      `;
+      document.body.appendChild(overlay);
+      setTimeout(() => window.location.href = 'index.html', 5000);
+    }
+  </script>
 </body>
 </html>
