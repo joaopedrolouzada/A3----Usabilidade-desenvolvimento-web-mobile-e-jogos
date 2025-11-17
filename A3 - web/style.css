@@ -1,18 +1,19 @@
 :root {
-  --bs-success: #2E7D32;
+  --bs-success: #297a2d;
   --bs-success-rgb: 46,125,50;
 }
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #FAFAFA;
+  background: linear-gradient( to bottom, #f0fdf4 0%, #fac05d 50%, #d49d3e 100%);
+  min-height: 100vh;
+  margin: 0;
 }
+
 
 .logo { font-size: 28px; font-weight: 800; color: var(--bs-success); }
 
-.bg-gradient-success {
-  background: linear-gradient(135deg, #E8F5E8 0%, #F1F8E9 100%);
-}
+
 
 .card {
   transition: transform .2s;
