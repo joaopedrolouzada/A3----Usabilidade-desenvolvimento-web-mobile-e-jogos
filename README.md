@@ -45,9 +45,10 @@ como também pessoas as pessoas podem doar em dinheiro para que essas instituiç
 ##### **5. Links**
 LINK EXCALIDRAW:
 https://excalidraw.com/#json=v9HCHsXPmRmttQRRaNeLn,0SdoI34ILAWOG_U2rCL2sQ
+
 LINK FIGMA: 
 https://www.figma.com/design/kRGgbc5Wj8OUo2srWcJe9R/A3-WEB?nodeid=1205-17584&t=M7zMt3HWsPUq1JCC-1
+
 LINK VIDEO YOUTUBE: 
 https://www.youtube.com/shorts/DqQwTJb9a-o
-* link do protótipo aqui\*\*
-* link do vídeo aqui\*\*
+
